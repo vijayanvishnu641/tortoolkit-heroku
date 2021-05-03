@@ -1,20 +1,30 @@
-# TorToolkit Telegram
-Torrent & Yt-DL Leech Robot
-# Easy Deploy 
-Fork this repositry
-Change Your Configs. Before Deploy Here  
-Tortoolkit > Consts > ExecVarsSample.py
+# TorToolkit Telegram Bot
+Torrent & YT-DL Leech Bot
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+# Notes
 
-Credits
-https://github.com/yash-dk/TorToolkit-Telegram
+I don't recommend you to use this, since the author of the original repository wishes to create a seperate repository with added Heroku support. Please respect his wishes and don't use this repo. If you really need to use TTK, you can, just putting it out there.
+ 
+## Deploy via Heroku
+- Fork this repository
+- Before deploying, you should change the configs. 
+- Tortoolkit > Consts > ExecVarsSample.py
 
-He creted this i only make it deploy to heroku
+Note: you can also click the deploy button & add the variables manually.
+
+<p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+
+# Credits
+
+> [yash-dk's TorToolkit-Telegram (base repo)](https://github.com/yash-dk/TorToolkit-Telegram)
+
+> [tortoolkit's TorToolkit-Telegram (fixes)](https://github.com/tortoolkit/TorToolkit-Telegram)
+
+> [sahadz's TorToolkit-Telegram (made compatible with heroku)](https://github.com/sahadz/TorToolkit-Telegram)
 
 ## Variables
 `IS_VPS` = False
-#### Compulsory Vars
+## Compulsory Vars
 
 `API_HASH` = Obtained from Telegram 
 
@@ -22,12 +32,13 @@ He creted this i only make it deploy to heroku
 
 `BOT_TOKEN` = Obtained from Botfather
 
-`BASE_URL_OF_BOT` = Ip/domain of your bot like "http://myip/"
+`BASE_URL_OF_BOT` = IP/domain of your bot like "https://appname.herokuapp.com" (for heroku)
 
 `ALD_USR` = It is a list of IDs of all the allowed groups and useres who can use this bot in private.
 
 `DB_URI` = Postgres database URL.
-#### Optional Vars
+
+## Optional Vars
 (IT IS RECOMMENDED TO SET THE OPTIONAL VARS FROM SETTINGS MENU, If not all vars atleast use settings menu for RCLONE that way is much easier.)
 
 `EDIT_SLEEP_SECS` = Seconds to Sleep before edits. Recommended is 40.
@@ -56,8 +67,9 @@ He creted this i only make it deploy to heroku
 
 `MAX_TORRENT_SIZE` = Max torrent size in GBs
 
-Rest Variables are not to changes 
+Other varibles are not to be changed.
 ## Commands
+add in [@BotFather](https://t.me/BotFather)
 
     leech - To Leech a torrent or download a direct link
     ytdl - Donwload YouTube Video
@@ -71,5 +83,3 @@ Rest Variables are not to changes
     resumeall - Resume all torrents⚠️ Admin Only
     purge - Delete all torrents ⚠️ Admin Only
     getlogs - Get the robot logs ⚠️ Admin Only
-
-
