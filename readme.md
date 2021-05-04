@@ -19,7 +19,7 @@ Note: you can also click the deploy button & add the variables manually.
 
 # Credits
 
-## The Dickheadheaded YashDick Doesnt deserve credits cuz he is an premium whore He also Yourtolloh Doesn't eithet cuz these Indian and Indonesian fuckers  run these bots on heroku but wont share the repo Bunch of motherfucking kangers and dumbasses😠
+## The Dickheadheaded YashDick Doesnt deserve credits cuz he is an premium whore He also Yourtolloh Doesn't either cuz these Indian and Indonesian fuckers  run these bots on heroku but wont share the repo Bunch of motherfucking kangers and dumbasses😠
 
 > [tortoolkit's TorToolkit-Telegram (fixes)](https://github.com/tortoolkit/TorToolkit-Telegram)
 
